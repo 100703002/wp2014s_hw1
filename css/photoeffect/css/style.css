@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    width:99%;
+    background-color:yellow;
+    font-family:Arial;
+}
+.header
+{
+    width:99%;
+    height:0px;
+}
+.footer{
+    width:99.9%;
+    margin-top:0px;
+    text-align:center;
+    clear:both;
+}
+a.back{
+   color:#ccc;
+   font-weight:bold;
+   font-size:16px;
+   text-shadow:10px 10px 10px #000;
+   text-decoration:none;
+}
+a.back:hover{
+    color:#fff;
+}
+.content{
+    height:250px;
+    margin:0 auto;
+}
+.photo1, .photo2, .photo3, .photo4{
+    width:335px;
+    height:200px;
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    float:left;
+    margin:1px;
+    border:1px solid:#333;
+}
+.photo1{
+    background-image:url(http://images.apple.com/tw/home/images/promo_iphone5c.jpg);
+}
+.photo2{
+    background-image:url(http://images.apple.com/tw/home/images/promo_ipad_air.jpg);
+}
+.photo3{
+    background-image:url(http://images.apple.com/tw/home/images/promo_verse.jpg);   
+}
+.photo4{
+    background-image:url(http://images.apple.com/tw/home/images/promo_supplier_responsibility.jpg);   
+}
+.photo1 p, .photo2 p, .photo3 p,.photo4 p{
+    background-position:0px 0px;
+    display:block;
+    width:100%;
+    height:198px;
+    background-repeat:no-repeat;
+}
+.photo1 p{
+    background-image:url(http://images.apple.com/tw/home/images/promo_iphone5c.jpg);
+}
+.photo2 p{
+    background-image:url(http://images.apple.com/tw/home/images/promo_ipad_air.jpg);
+}
+.photo3 p{
+    background-image:url(http://images.apple.com/tw/home/images/promo_verse.jpg);
+}
+.photo4 p{
+    background-image:url(http://images.apple.com/tw/home/images/promo_supplier_responsibility.jpg);
+}
